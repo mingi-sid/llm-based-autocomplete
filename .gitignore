@@ -1,4 +1,7 @@
-/server/data/*
-/server/models/*
-/server/outputs/*
+model/**
+server/data/**
+server/model/**
+server/models/**
+server/outputs/**
 *.yaml
+client/llm-based-autocomplete-client/node_modules/**

@@ -1,0 +1,32 @@
+/* enlarge autocomplete class to fill whole screen area*/
+.autocomplete {
+  width: 80%;
+  justify-content: center;
+}
+
+#input-container, #suggestion-container {
+  flex-grow: 1;
+  flex-basis: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+
+textarea {
+  font-family: 'Pretendard', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  height: 800px;
+  width: 100%;
+}
+
+.autocomplete-suggestion {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  white-space: pre-line;
+  overflow-y: scroll;
+  height: 800px;
+}
