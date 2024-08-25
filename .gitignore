@@ -1,3 +1,4 @@
+.vscode
 model/**
 server/data/**
 server/model/**
